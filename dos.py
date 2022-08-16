@@ -1,4 +1,3 @@
-from matplotlib.pyplot import get
 import requests, threading, time;
 
 REQUESTS =128;
