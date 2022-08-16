@@ -1,8 +1,8 @@
 from matplotlib.pyplot import get
 import requests, threading, time;
 
-REQUESTS =64;
-THREADS = 32;
+REQUESTS =128;
+THREADS = 128;
 
 def Start():
     for i in range(0, THREADS):
